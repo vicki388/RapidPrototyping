@@ -19,7 +19,7 @@ def find(course):
 
         else:
             return 'Sorry. No result for course %s' % searchword
-
+#method for a username
 @app.route('/user/<username>')
 def show_user_profile(username):
     # show the user profile for that user
