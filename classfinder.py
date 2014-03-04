@@ -2,7 +2,7 @@ from flask import Flask
 from flask import request
 app = Flask(__name__)
 
-    
+#method for finding a class    
 @app.route('/find', methods=['POST', 'GET'])
 def find(course):
     
