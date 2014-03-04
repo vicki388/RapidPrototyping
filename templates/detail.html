@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>The Recipe Bx | View recipe</title>
+   <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+  <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+ </head>
+
+ <body>
+<div class="container">
+
+ <div class="row">
+   <div class="col-lg-9">
+     <h1>Pet Dat</h1>
+     <hr>
+   </div>
+   <div class="col-lg-3">
+     <br>
+     <button type="button" class="btn btn-primary btn-sm">account information</button>
+   </div>
+ </div>
+
+ <div class="row">
+   <div class="col-md-8">
+       <div class="row">
+         <div class="col-md-9">
+
+     <div class="row well well-md">
+       <div class="row">
+         <div class="col-md-10">
+           <h3>Name <b>{{item.name}}</b></h3>
+           <h4> Gender <b>{{item.gender}}</b></h4>
+           <h4> Age <b>{{item.age}}</b></h4>
+           <h4> One thing I like is <b>{{item.like}}</b></h4>
+           <h4> One thing I dislike is <b>{{item.dislike}}</b></h4>
+           <img src="{{item.url}}" height="300" >
+         </div>
+       </div>
+     </div>
+   </div>
+
+   <div class="col-md-2"></div> 
+
+ </div>
+</div>
+               
+
+
+ </body>
+</html>
